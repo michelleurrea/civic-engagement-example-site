@@ -14,7 +14,6 @@ console.log("This is what happens when I don't include .innerText");
 console.log(myStaff[0]);
 console.log("This is what happens when I do include .innerText");
 console.log(myStaff[0].innerText);
-console.log(myStaff[0]);
 console.log(myStaff[1].innerText);
 console.log(myStaff[2].innerText);
 console.log(myStaff[3].innerText);
@@ -31,3 +30,16 @@ console.log(myStaffTag[2].innerText);
 console.log(myStaffTag[3].innerText);
 console.log(myStaffTag[4].innerText);
 console.log(myStaffTag[5].innerText);
+
+// Here I am 
+
+console.log("Entering for loop")
+for(var i = 0; i<myStaffTag.length; i++){
+    console.log("Entered for loop")
+    if (myStaffTag[i].innerText == "Pedro Ciriano Perez") {
+        console.log("YAHOO!");
+    }
+    else {
+        console.log("Muy triste");
+    }
+}
