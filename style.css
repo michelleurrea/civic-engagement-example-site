@@ -6,9 +6,42 @@ body {
 h1 {
     text-align: center;
     font-size: 60px;
+    text-align: center;
 }
 
-div {
+.main-container {
+    text-align: center;
+    width: 300px;
+    height: 100px;
+}
+
+.content-container {
     color: white;
-    font-size: 20px;
+    font-size: 40px;
+    width: 300px;
+    height: 100px;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+  }
+  
+/* visited link */
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: white;
+    text-decoration: none;
 }
